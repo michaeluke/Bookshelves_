@@ -15,7 +15,7 @@ class Search extends Component {
   };
 
   //when user clicks on search button.. update state.. pass value to onSearch (callback fn.)
-  //retrieve the value of state.
+
   handleSearchClick = () => {
     const { searchQuery } = this.state;
     this.props.onSearch(searchQuery);
